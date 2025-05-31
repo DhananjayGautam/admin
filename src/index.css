@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiBadge-badge{
+    background:#3872fa !important;
+}
+body{
+   font-family: "Montserrat", sans-serif;
+   background: #f1f1f1;
+   
+}
+::-webkit-scrollbar{
+    width: 10px !important ;
+    height: 10px !important;
+}
+::-webkit-scrollbar{
+    background: #ccc !important;
+}
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+.btn-blue{
+    background: #3872fa !important;
+    color: #fff !important;
+    padding: 8px 20px !important;
+}
+.btn-blue:hover{
+    background: #3067e5 !important;
+}
+.btn{
+    padding: 8px 20px !important;
+}
+.btn-sm{
+    padding: 6px 20px !important;
+    font-size: 13px;
+}
+.btn-sm{
+    padding: 8px 20px !important;
+    font-size: 16px;
+}
+th.MuiTableCell-root{@apply bg-[#f1f1f1] py-1
+}
+
+a.active button{
+    background: #e8e8e8 !important;
+
+}
+.MuiButton-icon svg{
+    font-size: 27px !important;
+}
+.css-rizt0-MuiTypography-root{
+    font-size: 14px;
+}
+.MuiAppBar-colorPrimary{
+    background: #e6e6e6 !important;
+}
+.MuiSelect-select{
+    background: #fff !important;
+}
+.MuiDialog-paper{
+    background: #f9fafb !important;
+}
+    .otpBox input {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        outline: none !important;
+        border-radius: 4px;
+    }
+    
+    .otpBox input:focus {
+        border: 1px solid rgba(0, 0, 0, 0.7) !important;
+    }
+    
+    .otpPage .container {
+        height: 90vh;
+        display: flex;
+    }
+    .MuiTableBody-root tr:nth-child(even){
+        @apply bg-gray-50
+    }
