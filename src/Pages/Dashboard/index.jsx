@@ -4,7 +4,7 @@ import { Button } from '@mui/material'
 import { IoMdAdd } from "react-icons/io";
 
 import { FaAngleDown } from "react-icons/fa6";
-import Badge from '../../components/Badge';
+import Badge from '../../Components/Badge';
 import { FaAngleUp } from "react-icons/fa6";
 
 import Checkbox from '@mui/material/Checkbox';
